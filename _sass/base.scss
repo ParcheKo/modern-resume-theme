@@ -2,6 +2,18 @@
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
 @import url(https://use.fontawesome.com/releases/v5.11.2/css/all.css);
 @import url(https://use.fontawesome.com/releases/v5.11.2/css/v4-shims.css);
+@font-face {
+    font-family: 'IranNastaliq';
+    src: url('../fonts/IranNastaliq.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/IranNastaliq.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    //  url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/IranNastaliq.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/IranNastaliq.ttf') format('truetype');
+    /* Safari, Android, iOS */
+    //  url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
 button,
 input[type="button"],
 input[type="reset"],
