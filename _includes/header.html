@@ -66,6 +66,12 @@
                         <i class="fab fa-twitter color" title="Twitter link"></i>
                     </a>
                 </li>
+                {%- endif -%} {%- if site.skype_username -%}
+                <li>
+                    <a target="_blank" href="live:{{ site.skype_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+                        <i class="fab fa-skype color" title="Skype link"></i>
+                    </a>
+                </li>
                 {%- endif -%} {%- if site.youtube_username -%}
                 <li>
                     <a target="_blank" href="https://www.youtube.com/{{ site.youtube_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
