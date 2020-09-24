@@ -4,11 +4,11 @@
 @import url(https://use.fontawesome.com/releases/v5.11.2/css/v4-shims.css);
 @font-face {
     font-family: 'IranNastaliq';
-    src: url('../assets/fonts/IranNastaliq.eot?#') format('eot'), /* IE9 Compat Modes */
+    src: url('../assets/fonts/IranNastaliq.eot'), /* IE9 Compat Modes */
     // src: url('../assets/fonts/IranNastaliq.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
     //  url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../assets/fonts/IranNastaliq.ttf') format('truetype'), /* True Type */
-    url('../assets/fonts/IranNastaliq.woff') format('woff');
+    url("../assets/fonts/IranNastaliq.ttf") format("truetype"), /* True Type */
+    url("../assets/fonts/IranNastaliq.woff") format("woff");
     /* Pretty Modern Browsers */
     /* Safari, Android, iOS */
     //  url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
@@ -181,18 +181,18 @@ html {
     -moz-transition: all 0.3s;
     transition: all 0.3s;
     border-radius: 0;
-    background: #DEDEDE;
-    color: #4C4C4C;
+    background: #dedede;
+    color: #4c4c4c;
 }
 
 .btn:focus {
-    background: #DEDEDE;
-    color: #4C4C4C;
+    background: #dedede;
+    color: #4c4c4c;
 }
 
 .btn:hover {
-    background: #CCCCCC;
-    color: #4C4C4C;
+    background: #cccccc;
+    color: #4c4c4c;
 }
 
 .btn:active {
@@ -200,8 +200,8 @@ html {
 }
 
 .btn.disabled {
-    background: #EAEAEA;
-    color: #9E9E9E;
+    background: #eaeaea;
+    color: #9e9e9e;
     cursor: default;
     top: 0px;
 }
@@ -214,7 +214,7 @@ body {
 
 :lang(fa) body {
     background: #ffffff;
-    font-family: Changa, sans-serif;
+    font-family: IranNastaliq, sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 
